@@ -9,10 +9,10 @@ print(PASSWORD)
 print(HOST)
 
 con <- dbConnect(dbDriver("PostgreSQL"),
-                 dbname = "newcheck",
+                 dbname = "shubhamjupy",
                  host = HOST,
                  port = 5439,
                  user = USERNAME,
                  password = PASSWORD
 )
-dbGetQuery(con,"INSERT INTO publish.testqa (id, name, email) VALUES (1,'R1','R1@mail.com');")
+dbGetQuery(con,"INSERT INTO publish.shubham2 (id ,name) VALUES (1,'Python1');")
