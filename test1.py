@@ -17,4 +17,4 @@ if __name__ == "__main__":
                  )
     engine = create_engine(url)
     #engine.execute("INSERT INTO publish.q1 (firstname, email) VALUES ('NewName','NewMail@mail.com');")
-    engine.execute("INSERT INTO publish.shubham1 (id ,name) VALUES (1,'Python1');")
+    engine.execute("INSERT INTO publish.transtestsql (id ,name) VALUES (1,'Python1');")
